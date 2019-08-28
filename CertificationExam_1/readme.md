@@ -1,14 +1,13 @@
-
-# 概要
-
-Uipath認定試験
+Uipath認定試験のSecondStageで出題されるPractical Exam 
+ 
+# 試験概要
 
 - Transactionltemのdatatypeは「Queueltem」（RefのデフォルトもQueueItem）
 - Dispatcher（ジョブ登録）とPerformer（ジョブ実行）を作成
 - Dispatcher（ジョブ登録）で、全てのInvoice情報をキューに登録
 - Performer（ジョブ実行）で、キューのInvoiceNumberで検索した結果と、情報が一致しているかチェック（不一致なら業務例外）
 
-# 詳細
+# 試験詳細
 
 Exercise
 
