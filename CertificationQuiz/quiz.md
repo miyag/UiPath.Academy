@@ -44,6 +44,13 @@
 - [o] By using the column index.
 
 ---
+### Q）Can you store a Selector in a variable?
+
+- [-] No
+- [-] Yes, in a UiElement variable.
+- [o] Yes, in a String variable.
+
+---
 ### Q）Is it possible to retrieve the color of a specific Excel cell?
 
 - [o] Yes, by using Get Cell Color
@@ -92,6 +99,23 @@
 - [o] Sequence
 
 ---
+
+### Q) Which of the following types of variables can be defined in UiPath Studio?
+
+- [o] GenericValue.
+- [o] DataTable
+- [-] Number.
+
+---
+
+### Q) At the end of the execution of Workflow1, which retrieves some items from a database, is the database connection closed automatically?
+
+- [-] Yes, the connection is closed after 30 seconds.
+- [o] The connection has to be closed using a Disconnect activity.
+- [-] Only the database admin can decide this aspect.
+
+
+---
 ### Q) What is the robot able to do when the Full Text scraping method is used?
 
 - [-] Get font information (size, colour).
@@ -100,6 +124,13 @@
 - [o] Get the entire visible text.
 
 ---
+
+### Q) How can a robot start an application in Citrix?
+
+- [o] By using a command line.
+- [o] By double clicking on a Desktop icon.
+- [-] By using an Open Application activity.
+- [o] By defining a shortcut key for the application and then triggering the app with a Send Hotkey activity.
 
 ### Q) When should the “Add Log Fields” activity be used?
 
@@ -144,6 +175,27 @@
 - [o] Busy
 - [-] Runnning
 - [-] Pending
+
+---
+### Q) In a Try Catch activity, how many times is the Finally section executed if no error occurs in the Try section?
+
+- [o] Once
+- [-] The Finally section is executed only when the Catch section is executed.
+- [-] Zero
+
+---
+### Q) What happens if the result of a transaction is not set?
+
+- [-] It is automatically set to Successful after 24 hours
+- [-] It is automatically set to Failed after 24 hours
+- [o] The status is “In Progress” for 24 hours, and then it switches to Abandoned
+
+---
+### Q) What is the best way of restricting the access of a person to a limited number of pages in Orchestrator?
+
+- [-] That option does not exist. Everyone is able to see everything
+- [-] By changing the rights of the Administrator to the desired state.
+- [o] By creating a different account and role for that person. When creating a new role, restrictions can be applied.
 
 ---
 ### Q) What is the relation between environments and provisioned robots?
@@ -198,6 +250,13 @@
 - [o] End​ ​Process​ ​State
 
 ---
+### Q) Which of the following are considered best practices? Select all the options that apply.
+
+- [-] Keeping environment settings hard coded inside workflows.
+- [o] Breaking the process into smaller workflows.
+- [o] Reusing workflows across different projects.
+
+---
 ### Q) What can the UiPath Robotic Enterprise Framework template be used as?
 
 - [o] The starting point for every automation project
@@ -210,6 +269,20 @@
 - [o] Proper exception handling
 - [o] Recovery abilities
 - [o] Effective logging mechanisms
+
+---
+### Q) How can you pass data between workflows?
+
+- [o] By using arguments.
+- [-] By using variables.
+- [-] By using a pipe.
+
+---
+### Q) What layout should be used for UI navigation and data processing?
+
+- [-] Flowchart
+- [o] Sequence
+- [-] State Machine
 
 ---
 ### Q) If a large item collection is processed using For Each, which activity enables you to efficiently exit the loop after a specific moment?
@@ -248,6 +321,13 @@
 - [o] End Process
 
 ---
+### Q) What is the difference between a Click activity whose SimulateClick property is checked and another one with the same property unchecked?
+
+- [-] The activity with an enabled SimulateClick flag does not click the target element, it just simulates the action.
+- [o] The activity with the SimulateClick flag unchecked moves the mouse cursor over the target element, while the one with the flag set does not move the mouse cursor.
+- [-] There is no difference - both can be used in same scenarios.
+
+---
 ### Q) Which statement about the UiPath Robotic Enterprise Framework template is false?
 
 - [-] The​ ​framework​ ​is​ ​meant​ ​to​ ​be​ ​a​ ​template​ ​that​ ​helps​ ​the​ ​user​ ​design​ ​processes​.
@@ -261,6 +341,13 @@
 - [o] Priority
 - [o] Deadline
 - [o] Postpone
+
+---
+### Q) In the UiPath Robotic Enterprise Framework template, to enable the retry mechanism without using Queues, what should the value of MaxRetryNumber be set to?
+
+- [-] 0
+- [o] Any value greater than 0
+- [-] Any value greater than 2
 
 ---
 ### Q) In which workflow in the UiPath Robotic Enterprise Framework template is the TransactionNumber global variable incremented by default?
@@ -311,3 +398,9 @@
 - [-] By creating daily backups of the files
 - [o] By using a source control solution, such as SVN, TFS, etc.
 - [-] Old versions of the project files are not relevant
+
+---
+### Q) This is a reliable selector for a dynamic web page: webctrl idx='144' tag='IMG'/
+
+- [-] True
+- [o] False
