@@ -1,3 +1,12 @@
+### Q) Consider three GenericValue variables, var1 with the default value of “3 apples”, var2 with the default value of “5 mangos”, and the result, which is the output of an Assign Activity with the var1 + var2 expression. What is the value of the resulting vari
+
+- [-] Null
+- [-] “8 fruits”
+- [-] 8
+- [-] Error: “Input string was not in a correct format”
+- [o] “3 apples5 mangos”
+
+---
 ### Q) Which activity provides the easiest way to loop through all the rows in a DataTable?
 
 - [-] While
@@ -8,6 +17,13 @@
 
 ---
 
+### Q) What type of argument can you define to pass data and retrieve the modified value from an invoked workflow?
+
+- [-] In
+- [o] In/Out.
+- [-] Out.
+
+---
 ### Q) How can you dynamically change parts of a selector?
 
 - [-] You cannot have dynamic components in a selector.
@@ -58,6 +74,13 @@
 - [-] Only with an OCR Engine.
 
 ---
+### Q) Is it possible to write to a text file without using the Write Text File activity?
+
+- [-] No
+- [o] Yes, using the Invoke Method activity
+- [o] Yes, with the Invoke Power Shell activity
+
+---
 ### Q) What type of Output variable do all Get Mail activities return? (POP3, IMAP, Outlook, Exchange)
 
 - [-] MailMessage
@@ -75,6 +98,23 @@
 - [o] Failed
 - [o] Retried
 - [o] Deleted
+
+---
+### Q) What status does a job have when a schedule is triggered in Orchestrator, but there are no available robots to execute it?
+
+- [-] In progress
+- [o] Pending
+- [-] New
+
+---
+### Q) One of the actions below is not required when starting processes with UiPath Orchestrator.
+
+- [-] Registering robots to Orchestrator
+- [-] Publishing projects from UiPath Studio
+- [-] Creating an environment containing the robot
+- [o] Creating a queue in Orchestrator
+- [-] Creating a process with the published package and environment
+- [-] Starting a job, which is the execution of the process
 
 ---
 ### Q) What types of assets can be stored in Orchestrator?
@@ -161,6 +201,21 @@
 - [-] The execution process is killed.
 - [o] The execution is not impacted if no Should Stop activity has been included in the workflow in Studio.
 - [-] The job state is changed to Canceled/Stopped, even if no Should Stop activity was used.
+
+---
+### Q) What happens when a new version of a package is published?
+
+- [-] The processes using the package are automatically updated to the latest version
+- [o] The processes have to be updated in order for the robots to run the latest version of the package
+- [-] The old version of the package is overwritten
+
+---
+### Q) What is Orchestrator used for?
+
+- [-] Running Windows processes on the local machine.
+- [o] Remotely controlling any number of robots and performing workflow management.
+- [-] Designing workflows to be run by robots in a supervised mode.
+- [-] Designing workflows to be run by robots in an unsupervised mode.
 
 ---
 ### Q) Which of the following statements related to Orchestrator are true?
@@ -250,11 +305,27 @@
 - [o] End​ ​Process​ ​State
 
 ---
+### Q) Which is the best way to navigate to a specific page in a web browser?
+
+- [o] Use the Navigate To activity inside an Attach Browser container
+- [-] Use the Type Into activity inside an Attach Browser container
+- [-] Use a Type Into activity with a full selector
+
+---
+### Q) Which of the following are considered best practices?
+
+- [o] Removing unreferenced variables.
+- [o] Deleting disabled code.
+- [-] ULeaving target applications opened.
+
+---
 ### Q) Which of the following are considered best practices? Select all the options that apply.
 
 - [-] Keeping environment settings hard coded inside workflows.
 - [o] Breaking the process into smaller workflows.
 - [o] Reusing workflows across different projects.
+
+
 
 ---
 ### Q) What can the UiPath Robotic Enterprise Framework template be used as?
@@ -283,6 +354,19 @@
 - [-] Flowchart
 - [o] Sequence
 - [-] State Machine
+
+---
+### Q) What is the best way to select a row with a certain value from a column in Excel?
+
+- [-] Use a Read Range activity to retrieve the contents of the Excel file, and then use a For Each activity loop to iterate through the data and identify the element.
+- [o] Use a Read Range Activity to retrieve the contents of the Excel file, and then use a Select method to identify the desired row.
+- [-] Use the Find functionality from Excel.
+
+---
+### Q) After adding an Invoke Workflow File activity and selecting the workflow to invoke, you need to:
+
+- [o] Click Import Arguments, and then bind the arguments to the local variables or to some default values
+- [-] Click Edit Arguments, and then bind the arguments to the local variables or to some default values
 
 ---
 ### Q) If a large item collection is processed using For Each, which activity enables you to efficiently exit the loop after a specific moment?
@@ -321,11 +405,25 @@
 - [o] End Process
 
 ---
+### Q) When should the Simulate Type/Click property be used?
+
+- [o] Whenever supported by the target application
+- [-] Only when background automation is required
+- [-] Only for testing purposes
+
+---
 ### Q) What is the difference between a Click activity whose SimulateClick property is checked and another one with the same property unchecked?
 
 - [-] The activity with an enabled SimulateClick flag does not click the target element, it just simulates the action.
 - [o] The activity with the SimulateClick flag unchecked moves the mouse cursor over the target element, while the one with the flag set does not move the mouse cursor.
 - [-] There is no difference - both can be used in same scenarios.
+
+---
+### Q) In the UiPath Robotic Enterprise Framework template, in the Get Transaction Data state of the Main workflow, what happens before the next transaction item is retrieved?
+
+- [-] We check if the previous transaction has been completed
+- [-] We check if a kill signal was sent from Orchestrator
+- [o] We check if a stop signal was sent from Orchestrator
 
 ---
 ### Q) Which statement about the UiPath Robotic Enterprise Framework template is false?
@@ -372,6 +470,21 @@
 - [-] Directly inside the workflows, as variables.
 
 ---
+### Q) What is the best way of scraping a large, selectable text in a Citrix environment?
+
+- [-] Use a Get Full Text activity.
+- [-] Use the Microsoft OCR engine.
+- [-] Use the Google OCR engine.
+- [o] Select the entire text and copy it with the Copy Selected Text activity.
+
+---
+### Q) While automating an installation wizard, a pop-up window may or may not appear. What can you use to close the window without stopping the workflow?
+
+- [o] Use a Click activity inside a Try Catch activity.
+- [o] Use a Click activity with the ContinueOnError property set to True.
+- [-] Use a Click activity and set its TimeoutMS property to 30.
+
+---
 ### Q) The return value of the Get Transaction Item activity is of the following type:
 
 - [-] Object
@@ -404,3 +517,24 @@
 
 - [-] True
 - [o] False
+
+---
+### Q) Where should you store the environment settings that are prone to changes?
+
+- [o] In Orchestrator, as assets
+- [o] Inside config files (.xml, .json, .xlsx, etc.)
+- [-] Directly inside the workflows, as hard coded values
+
+---
+### Q) How can you improve a selector?
+
+- [o] By replacing the dynamic parts of an attribute with wildcards.
+- [-] By adding the absolute position of the elements to the selector.
+- [o] By using intermediate containers for a better matching of the UI element.
+
+---
+### Q) What are the functions of the Outline panel?
+
+- [o] It shows the structure of the workflow
+- [-] It shows the execution result of the workflow
+- [o] If the Activities are properly named, it can be used to search and select specific Activities used inside the workflow
