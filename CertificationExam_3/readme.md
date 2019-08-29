@@ -1,8 +1,6 @@
-# 概要
+Uipath認定試験のSecondStageで出題されるPractical Exam
 
-Uipath認定試験
-
-# 概要
+# 試験概要
 
 - TransactionItemのdatatypeは「DataRow」（RefのデフォルトはQueueItem）
 - Vendor検索結果の一覧で表示された結果をDatatableに退避
@@ -11,7 +9,7 @@ Uipath認定試験
   - Cityが指定グループに一致するかチェック（不一致なら業務例外）
   - 上記チェックで問題なければ、Excelに記録
 
-# 詳細
+# 試験詳細
 
 Exercise
 In this exercise, you will create a UiPath automation that performs the steps below.

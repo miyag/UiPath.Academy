@@ -1,6 +1,6 @@
-Uipath認定試験
+Uipath認定試験のSecondStageで出題されるPractical Exam
 
-# 概要
+# 試験概要
 
 - Transactionltemのdatatypeは「String」（RefのデフォルトはqueueItem)
 - WorkItemsのページごとに処理
@@ -9,7 +9,7 @@ Uipath認定試験
   - 条件）Description is 'Process Vendor Invoice'
   - 条件）WIID is greater than 400000
 
-# 詳細
+# 試験詳細
 
 Exercise
 In this exercise, you will create a UiPath automation that performs the steps below. 
