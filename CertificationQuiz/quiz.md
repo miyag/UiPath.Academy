@@ -1,3 +1,116 @@
+
+# Not Correct（不正解）
+
+### Q) Which statements are true regarding the Write Line and the Log Message activities?
+
+- [?] By using a Log Message activity, you can set different levels of tracing.
+- [?] Write Line is just a Log Message set on Trace.
+- [?] By using any of them, you generate traces in the Output panel and also in the log files.
+
+comment) 一番上だけで不正解
+
+---
+### Q) Which of the following technologies can be used for background automation?
+
+- [?] The Click activity with the Simulate Click flag checked.
+- [?] Data Scraping.
+- [?] The Full Text method of Screen Scraping.
+- [?] Type into activity with SendWindowMessages flag checked.
+
+comment) 一番下だけで不正解
+
+---
+### Q) Is it possible to reprocess a transaction in a Queue after its failure due to an application exception?
+
+- [?] No, transactions cannot be processed again if they fail.
+- [?] Yes, if the Auto-Retry property of the Queue is enabled.
+- [?] Only transactions that failed due to a business exception can be reprocessed.
+- [?] Yes, it can be retried manually on the Transactions page.
+
+comment) 真ん中2つで不正解
+
+---
+### Q) In the UiPath Robotic Enterprise Framework template, what happens if the processing of a transaction item fails with an Application Exception or a System Error?
+
+- [?] The process executes the End Process state.
+- [?] All used applications are closed and then re-initialized.
+- [?] The execution of the transaction item is retried if the MaxRetryNumber config value is greater than 0.
+
+comment) 一番下だけで不正解。したふたつらしい？
+
+---
+### Q) How should exceptions be handled? Select all the options that apply.
+
+- [?] By using Try Catch activities inside the workflow for unexpected application exceptions.
+- [?] By validating data using conditional blocks for business exceptions.
+- [?] UiPath handles exceptions by default.
+
+comment) 全部選択で不正解。上2つらしい？
+
+---
+### Q) What can be used to debug a workflow?
+
+- [?] Breakpoints
+- [?] Highlighting activities.
+- [?] The Slow Step option.
+
+comment) 上１つで不正解
+
+---
+### Q) Where can you trigger an unattended robot from? Select all the options that apply.
+
+- [?] The UiPath Robot icon in the system tray
+- [?] UiPath Studio
+- [?] Remotely, from Orchestrator
+
+comment) 全部選択で不正解。
+
+
+---
+### Q) What do the Items in the Orchestrator queues consist of? Select all the options that apply.
+
+- [?] Input data for the processes executed by the robots
+- [?] Jobs to be executed by the robots
+- [?] Processes to be executed by the robots
+
+comment) 一番下で不正解。
+
+---
+### Q) In the UiPath Robotic Enterprise Framework template, where can the GetAppCredentials workflow retrieve credentials from?
+
+- [?] Orchestrator Asset
+- [?] Windows Credential Manager
+- [?] User dialog
+
+comment) 一番上で不正解。
+
+---
+### Q) In UiPath Robotic Enterprise Framework, the value of MaxRetryNumber in the Config.xlsx file should be set to a number greater than 0 to enable the retry mechanism in the following cases:
+
+- [?] Get data from spreadsheets,​ ​databases, email,​ ​web​ ​API.
+- [?] Do not work with UiPath​ ​Orchestrator ​queues.
+- [?] Get data from UiPath Orchestrator queues with Auto Retry disabled.
+
+comment) 真ん中だけで不正解。
+
+
+<br/><br/>
+
+# Correct（正解）
+
+### Q) What is the slowest method of reading text?
+
+- [-] Native
+- [-] FullText.
+- [o] OCR
+
+### Q) Which of the following SQL statements can be executed by using the activity called Execute Non Query?
+
+- [o] Insert
+- [o] Update
+- [-] Select
+- [o] Delete
+
 ### Q) Consider three GenericValue variables, var1 with the default value of “3 apples”, var2 with the default value of “5 mangos”, and the result, which is the output of an Assign Activity with the var1 + var2 expression. What is the value of the resulting vari
 
 - [-] Null
@@ -38,6 +151,7 @@
 - [-] Before typing, a click is performed on the top left corner of the UiElement.
 - [-] Before typing, a click is performed at the current mouse position.
 
+---
 ### Q）Which activity is used to call another piece of automation?
 
 - [-] Open Application
@@ -124,11 +238,25 @@
 - [-] Integer, Password, GenericValue, String
 
 ---
+### Q) What is the safest way to close an application?
+
+- [-] By sending the Alt + F4 hotkeys
+- [o] By using the Close Application activity
+- [-] By using the Process Name property of the Kill Process Activity
+
+---
 ### Q) Which is the best way to delete unreferenced variables?
 
 - [-] Delete them one by one from the Variables panel. UiPath Studio performs the workflow validation in real time, therefore you can see which variable is being used.
 - [o] You can manage your variables from the Design panel > Manage Variables > Remove Unreferenced.
 - [-] The unreferenced variables do not utilise memory, therefore you do not have to delete them.
+
+---
+### Q) How can you provide more details to explain the purpose of the activities in a workflow?
+
+- [o] By adding activity Annotations.
+- [-] By using a Comment Out activity.
+- [o] By using the Comment activity.
 
 ---
 ### Q) You need to collect employees data and send it by email as an Excel file. What type of workflow is the most suitable for the final part, which adds the file attachment, formats the email, and sends it?
@@ -179,7 +307,13 @@
 - [-] When a log message with a maximum number of five visible fields needs to be generated
 
 ---
+### Q) Where can the logging level of a robot be changed from?
 
+- [o] The robot settings, which are accessed via the UiPath Robot icon in the System tray.
+- [o] Orchestrator, in the Edit Robot section, the Settings tab.
+- [-] You can not change the logging level.
+
+---
 ### Q) The String.Format(“Input = {0} and Output = {0}”, “1”,”2”) expression returns the following:
 
 - [-] Input = {0} and Output = {0}.
@@ -194,6 +328,14 @@
 - [-] You cannot use a recorder in a Citrix environment
 - [o] The recorder is used to create a skeleton for the UI automation
 - [o] The Desktop recorder generates partial selectors
+
+---
+### Q) “Add Assets” in Orchestrator has the following option:
+
+- [o] Value Per Robot
+- [-] Value Per Environment
+- [-] Value Per Process
+- [o] Single Value
 
 ---
 ### Q) What happens if you try to end the execution of a job by clicking the Stop/Cancel button in UiPath Orchestrator?
@@ -216,6 +358,28 @@
 - [o] Remotely controlling any number of robots and performing workflow management.
 - [-] Designing workflows to be run by robots in a supervised mode.
 - [-] Designing workflows to be run by robots in an unsupervised mode.
+
+---
+### Q) In UiPath Robotic Enterprise Framework, what are the transitions of the Init state?
+
+- [o] In the case of Success, the transition is to the Get Transaction Data state.
+- [-] In the case of System Error, the transition is to the Init state.
+- [-] In the case of Success, the transition is to the Process Transaction state.
+- [o] In the case of System Error, the transition is to the End Process state.
+
+---
+### Q) The best way of managing variable values within a workflow, so that they can be shared on different robots and environments is:
+
+- [-] Using Json config files.
+- [-] Using excel config files
+- [o] Using assets defined in Orchestrator.
+
+---
+### Q) What robots can be selected when you start a job from Orchestrator?
+
+- [-] Any robot provisioned in Orchestrator.
+- [-] Any robot you have access to according to your role permissions.
+- [o] Any robot in the same environment as the process to be executed.
 
 ---
 ### Q) Which of the following statements related to Orchestrator are true?
@@ -305,6 +469,20 @@
 - [o] End​ ​Process​ ​State
 
 ---
+### Q) In the UiPath Robotic Enterprise Framework template, if a System Error is encountered in the Process Transaction state of the Main workflow, which state is executed next?
+
+- [-] Get Transaction Data
+- [o] Init
+- [-] End Process
+
+---
+### Q) When should an Attended Robot be used? Select the option that applies.
+
+- [o] When the processing of some input data relies on human decision.
+- [-] When a workflow needs to be modified and corrected.
+- [-] When the process might be interrupted by exceptions and errors.
+
+---
 ### Q) Which is the best way to navigate to a specific page in a web browser?
 
 - [o] Use the Navigate To activity inside an Attach Browser container
@@ -316,7 +494,7 @@
 
 - [o] Removing unreferenced variables.
 - [o] Deleting disabled code.
-- [-] ULeaving target applications opened.
+- [-] Leaving target applications opened.
 
 ---
 ### Q) Which of the following are considered best practices? Select all the options that apply.
@@ -325,7 +503,12 @@
 - [o] Breaking the process into smaller workflows.
 - [o] Reusing workflows across different projects.
 
+---
+### Q) Which of the following are considered best practices?
 
+- [o] Start your new sequence with a short annotation meant to explain the purpose of the workflow.
+- [-] Include a Should Stop activity at the end of the workflow.
+- [o] Think about the exceptions that might occur during the execution of the process.
 
 ---
 ### Q) What can the UiPath Robotic Enterprise Framework template be used as?
@@ -333,6 +516,13 @@
 - [o] The starting point for every automation project
 - [-] A complete library for front office robots
 - [-] A consumer of a queue in Orchestrator
+
+---
+### Q) When requesting a work item from Orchestrator Queues using the Get Transaction Item activity, you need to specify the following:
+
+- [o] The name of the Queue which contains that specific work item
+- [-] The name of the Queue and the number of items to be retrieved
+- [-] The name of the Queue, the number of items, and a filtering expression
 
 ---
 ### Q) Which of the following are required to have efficient execution of automation projects?
