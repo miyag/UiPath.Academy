@@ -11,4 +11,4 @@ UipathAcademy Level 2 - Orchestratorトレーニング
 - テストは後で再開することはできません
 - 試行回数 がありません（ただし3回受けると24時間ロックされる）
 
-小テストの回答集：[minitest.md](/minitest.md)
+小テストの回答集：[minitest.md](https://github.com/miyag/Uipath_Academy/blob/master/OrchestratorTraining/minitest.md)

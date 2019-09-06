@@ -28,7 +28,7 @@ https://www.uipath.com/ja/academy/certifications
   - Advanced Training Questions 25
 
 
-回答集） [quiz.md](quiz.md) （全103問を記録）
+回答集） [quiz.md](https://github.com/miyag/Uipath_Academy/blob/master/AdvancedCertification/CertificationQuiz/quiz.md) （全103問を記録）
 
 ## フェーズ２
 
@@ -52,12 +52,12 @@ https://www.uipath.com/ja/academy/certifications
   
 回答集） 
 
-- [InvoiceCheck](/CertificationExam_InvoiceCheck)
+- [InvoiceCheck](https://github.com/miyag/Uipath_Academy/tree/master/AdvancedCertification/CertificationExam_InvoiceCheck)
   - Transactionltemのdatatypeは「Queueltem」
   - Dispatcher（ジョブ登録）とPerformer（ジョブ実行）を作成し、Invoiceの内容をチェック
-- [VendorCheck](/CertificationExam_VendorCheck)
+- [VendorCheck](https://github.com/miyag/Uipath_Academy/tree/master/AdvancedCertification/CertificationExam_VendorCheck)
   - TransactionItemのdatatypeは「DataRow」
   - Vendorの内容をチェックし、チェックOKの内容をExcelに出力
-- [WorkItemCheck](/CertificationExam_WorkItemCheck)
+- [WorkItemCheck](https://github.com/miyag/Uipath_Academy/tree/master/AdvancedCertification/CertificationExam_WorkItemCheck)
   - Transactionltemのdatatypeは「String」
   - WorkItems内容をチェックし、チェックOKの内容をExcelに出力

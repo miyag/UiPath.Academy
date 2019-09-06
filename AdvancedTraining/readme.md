@@ -10,8 +10,8 @@ UipathAcademy Level 3 - Advancedトレーニング
 
 サンプル実装）
 
-- [1-顧客のセキュアハッシュ算出](/AdvancedTraining_1_CalculateClientSecurityHash)
-- [2-年次レポートの出力](/AdvancedTraining_2_GenerateYearlyReport)
+- [1-顧客のセキュアハッシュ算出](https://github.com/miyag/Uipath_Academy/tree/master/AdvancedTraining/AdvancedTraining_1_CalculateClientSecurityHash)
+- [2-年次レポートの出力](https://github.com/miyag/Uipath_Academy/tree/master/AdvancedTraining/AdvancedTraining_2_GenerateYearlyReport)
 
 
 
