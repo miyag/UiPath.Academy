@@ -13,9 +13,9 @@ Q) UiPath Studio で既存のアクティビティ以外のアクティビティ
 - [o] はい、カスタムアクティビティとして作成することができます
 - [-] いいえ、既存のアクティビティに制限されています
 
-Q）Are you restricted to the existing activities in UiPath Studio?
-- [-] No, you can create and use Custom Activities.
-- [o] Yes, you are restricted to the existing activities.
+Q) Are you restricted to the existing activities in UiPath Studio?
+- [o] No, you can create and use Custom Activities.
+- [-] Yes, you are restricted to the existing activities.
 - [o] No, you can download more activities via the Package Manager and UiPath Go!
 
 ---
@@ -26,7 +26,7 @@ Q) プロセスのスケジュール設定には、どれを使用しますか�
 - [-] UiPath Studio
 - [o] UiPath Orchestrator
 
-Q）Scheduling a process is done from:
+Q) Scheduling a process is done from:
 - [-] UiPath Robot.
 - [-] UiPath Studio.
 - [o] Orchestrator Server.
@@ -39,7 +39,7 @@ Q) [レコーディング(Recording)]の記録された操作は何に変換さ�
 - [o] レコーディングされた各ステップのアクティビティを含むシーケンス
 - [-] [プロセス(Process)]
 
-Q）What is the output of a recording session?
+Q) What is the output of a recording session?
 - [-] A new robot.
 - [o] A sequence with an activity for each recorded step.
 - [-] A process.
@@ -52,7 +52,7 @@ Q) UiPath Orchestrator に[プロセス(Process)]を送信する方法はなん�
 - [-] プロセスファイルを使用して、管理者にメールを送信します
 - [o] [パブリッシュ(Publish)]を使用して、UiPath Studio から直接送信します
 
-Q））How can you Publish a process to the Orchestrator server?
+Q) ）How can you Publish a process to the Orchestrator server?
 - [-] Manually upload each file to Orchestrator Server.
 - [-] Send an email to the administrator with the process files.
 - [o] Directly from UiPath Studio, with the Publish functionality.
@@ -64,7 +64,7 @@ Q) UiPath から自動的にメールを送信することはできますか？
 - [o] はい
 - [-] いいえ
 
-Q）Can you send an email from UiPath, automatically?
+Q) Can you send an email from UiPath, automatically?
 - [o] Yes
 - [-] No
 
@@ -76,7 +76,7 @@ Q) UiPath の [データスクレイピング (Data Scraping)] のは何です�
 - [o] ウェブページからリスト・または構造化データを抽出する
 - [-] ウェブページからすべての情報を抽出する
 
-What web scraping capabilities can UiPath implement? 
+Q) What web scraping capabilities can UiPath implement? 
 - [o] Extracting the content of a table from a webpage.
 - [o] Extracting lists or other structured data from a webpage.
 - [o] Extracting text based content from a webpage
@@ -90,7 +90,7 @@ Q) 同じ[プロセス(Process)]を同時に複数実行することはできま
 - [-] はい、同じ UiPath Robotで実行できます
 - [-] いいえ
 
-Q）Can you run multiple instances of the same process, in parallel?
+Q) Can you run multiple instances of the same process, in parallel?
 - [o] Yes, on different robots.
 - [-] Yes, on the same robot.
 - [-] No.
@@ -103,7 +103,7 @@ Q) 再利用可能なコンポーネントとは何ですか？(該当するも�
 - [-] Orchestrator サーバーの機能
 - [o] 共通部品として、他のプロセス(Process)に対しても実装が可能であるワークフロー
 
-Q）What is a reusable component?
+Q) What is a reusable component?
 - [-] The artifact of a Publish operation.
 - [-] A functionality of the Orchestrator server.
 - [o] A workflow that implements a very common action repeated throughout all your automations.
@@ -147,7 +147,7 @@ Q) Which of these are workflow types available in UiPath Studio?
 ---
 ### 2.3
 
-Q）文字列の配列を反復処理できるようにするアクティビティはどれですか？
+Q) 文字列の配列を反復処理できるようにするアクティビティはどれですか？
 - [o] 繰り返し(前判定) (While)
 - [-] 繰り返し(各行) (ForEachRow)
 - [o] 繰り返し(後判定) (DoWhile)
@@ -238,16 +238,16 @@ Q) Which activity designed to represent a decision inside a Sequence?
 ### 2.9
 
 Q) テキストを保存できる変数の型はどれですか？
-Double
-文字列 (String) 型
-ジェネリック (Generic) 型
-整数 (Integer) 型
+- [-] Double
+- [o] 文字列 (String) 型
+- [o] ジェネリック (Generic) 型
+- [-] 整数 (Integer) 型
 
 Q) In which variable types can you store text? 
-- [ ] String
-- [ ] Generic
-- [ ] Double
-- [ ] Integer
+- [-] Double
+- [o] String
+- [o] Generic
+- [-] Integer
 
 ---
 
@@ -256,19 +256,21 @@ Q) Can you insert a Flowchart activity in a Sequence activity?
 - [o] Yes
 
 ---
+### 2.10
 
 Q) What kind of workflow should you use when performing multiple activities in a fixed sequential order? 
-- [ ] Sequence
-- [ ] State machine
-- [ ] Flowchart
-- [ ] None of the options
+- [o] Sequence
+- [-] State machine
+- [-] Flowchart
+- [-] None of the options
 
 ---
+### 2.11
 
 Q) When should you use the Flowchart workflow?
-- [ ] When having a process with many decision blocks
-- [ ] When modelling a process that has loops to previous states
-- [ ] When having multiple activities executed in a fixed order
+- [o] When having a process with many decision blocks
+- [-] When modelling a process that has loops to previous states
+- [-] When having multiple activities executed in a fixed order
 
 ---
 
@@ -435,9 +437,9 @@ Q) CurrentRow が、Name および Age の順序の2つの列を含むデータ�
 - [-] currentRow(2)
 
 Q) If currentRow represents a row from a DataTable with two columns in this order: Name and Age, which expressions can be used to obtain the value from the column Age?(Select all that apply.)
-- [-] currentRow("Age")
+- [o] currentRow("Age")
 - [o] currentRow(1)
-- [o] currentRow.Age
+- [-] currentRow.Age
 - [-] currentRow(2)
 
 ---
@@ -464,7 +466,7 @@ Q) [CSVを読み込む (ReadCSV)] の出力としてどの型の変数を使用�
 - [-] Array 変数
 - [-] String 変数
 
-Q）Which variable types can be used as output for the Read CSV activity?
+Q) Which variable types can be used as output for the Read CSV activity?
 - [o] DataTable variables
 - [-] List<DataRow> variables
 - [-] Array<DataRow> variables
@@ -516,12 +518,13 @@ Q) Which activity can you use to get the value from a certain cell, from a speci
 - [-] Remove Data Row
 
 ---
+### 3.16
 
 Q) The String.Format(“Input = {0} and Output = {1}”, “1”,”2”) expression returns which of the following text:
-- [ ] Input = 1 and Output = 1
-- [ ] Input = {0} and Output = {1}
-- [ ] Input = 0 and Output = 0
-- [ ] Input = 1 and Output = 2
+- [-] Input = 1 and Output = 1
+- [-] Input = {0} and Output = {1}
+- [-] Input = 0 and Output = 0
+- [o] Input = 1 and Output = 2
 
 
 ## Lesson-4
@@ -700,10 +703,14 @@ Q) Which recording wizard would you use to automate UI interactions in an applic
 - [-] [Basic Recording
 - [-] [Web Recording
 
-What recording profiles are available in UiPath Studio?
-Automatic recording and Step by Step recording
-Basic, Desktop, Web, Citrix
-Click, Check, Type Into and Select Item
+
+---
+### 4.13
+ 
+Q) What recording profiles are available in UiPath Studio?
+- [-] Automatic recording and Step by Step recording
+- [o] Basic, Desktop, Web, Citrix
+- [-] Click, Check, Type Into and Select Item
 
 
 ---
@@ -737,10 +744,10 @@ Q) Citrix の青い背景に書かれている白色のテキストを抽出す�
 - [-] [テキストを取得 (GetText)] を使用する
 
 Q) How can you extract white text written on blue background in Citrix?
-- [-] By using Get Text
-- [-] By using FullText method
-- [o] By using the Microsoft OCR engine invert property
 - [-] By using the Native Method
+- [o] By using the Microsoft OCR engine invert property
+- [-] By using FullText method
+- [-] By using Get Text
 
 ---
 ### 5.3
@@ -762,9 +769,9 @@ Q) [OCR] メソッドの主な利点を選択してください
 - [-] 高速である
 
 Q) The main advantage of the OCR method is:
-- [-] It’s fast.
-- [o] It works on every application even if it’s running in a virtual environment.
 - [-] It works even if the application is running in the background.
+- [o] It works on every application even if it’s running in a virtual environment.
+- [-] It’s fast.
 
 ---
 ### 5.5
@@ -776,10 +783,10 @@ Q) [ウィンドウにアタッチ (AttachWindow)] は何に使用しますか�
 - [o] 現在作業しているウィンドウを識別する
 
 Q) What is the Attach Window activity used for? 
-- [o] Identifying the window you are working with.
 - [-] Specifies that you want to automate in background.
 - [-] Specifies that you are working with a browser.
 - [-] Specifies that you are working with a Java window.
+- [o] Identifying the window you are working with.
 
 ---
 ### 5.6
@@ -860,10 +867,10 @@ Q) 最も低速なテキストの読み取り方法はどれですか？(該当�
 - [-] 上記のどれでもない
 
 Q) What is the slowest method of reading text?
-- [-] None of the options
 - [-] Native
 - [-] FullText
 - [o] OCR
+- [-] None of the options
 
 ---
 ### 5.12
@@ -903,9 +910,9 @@ Q) [フルテキスト (FullText)] メソッドの最も重要な利点を選択
 - [o] 高速である
 
 Q) The most important advantages of the FullText method are:
-- [-] It works in Citrix environments.
 - [o] It’s accurate.
 - [o] It works in the background.
+- [-] It works in Citrix environments.
 - [o] It’s fast.
 
 ---
@@ -923,9 +930,9 @@ Q) 「*」は何文字で置き換えられますか？
 - [-] 0文字
 
 Q) How many characters does “*” replace?
-- [-] Zero
-- [o] More than one
 - [-] Zero or more
+- [o] More than one
+- [-] Zero
 
 ---
 ### 6.2
@@ -937,42 +944,42 @@ Q) UiPath Studioのセレクターでサポートされているワイルドカ�
 - [o] *
 
 Q) What are the supported wildcard characters for selectors in UiPath Studio? 
-- [o] ?
 - [-] $
-- [o] *
 - [-] &
+- [o] ?
+- [o] *
 
 ---
 ### 6.3
  
 Q) 次のうち、有効な完全セレクターはどれですか？
-- [-] <wnd app='explorer.exe' cls='Shell_TrayWnd' /> 
-- [-] <webctrl idx='1' parentid='data-util-col' tag='TABLE' /> 
-- [o] <wnd cls='Start' title='Start' /><html app='chrome.exe' title='Yahoo Finance' /> 
-- [o] <webctrl isleaf='1' tableRow='3' tag='TD' /><wnd cls='Start' title='Start' /><wnd app=’*' />
+- [o] <wnd app='explorer.exe' cls='Shell_TrayWnd' /> <br><wnd cls='Start' title='Start' >
+- [-] <wnd app=’*' />
+- [o] <html app='chrome.exe' title='Yahoo Finance' > <br><webctrl idx='1' parentid='data-util-col' tag='TABLE' > <br><webctrl isleaf='1' tableRow='3' tag='TD' >
+- [-] <webctrl isleaf='1' tableRow='3' tag='TD' /><wnd cls='Start' title='Start' /><wnd app=’*' />
 
 Q) 
 Which of the following is a valid full selector?
-
-- [o] <html app='chrome.exe' title='Yahoo Finance' /> <webctrl idx='1' parentid='data-util-col' tag='TABLE' /> <webctrl isleaf='1' tableRow='3' tag='TD' />
-- [-] <wnd cls='Start' title='Start' />
-- [-] <wnd app=’*' />
 - [o] <wnd app='explorer.exe' cls='Shell_TrayWnd' /> <wnd cls='Start' title='Start' />
+tag='TABLE' />
+- [-] <wnd app=’*' />
+- [o] <html app='chrome.exe' title='Yahoo Finance' > <br><webctrl idx='1' parentid='data-util-col' tag='TABLE' > <br><webctrl isleaf='1' tableRow='3' tag='TD' >
+- [-] <wnd cls='Start' title='Start' />
 
 ---
 ### 6.4
  
 Q) 2017年の日付でのみ動作するようにするには、次のカレンダーページセレクターをどのように修正すればよいですか？
-- [-] “<html app='chrome.exe' title='UiPath - Calendar - Week of ?????, 2017' />”
-- [-] “<html app='chrome.exe' title='UiPath - Calendar -* 201?'/> “
-- [-] “<html app='chrome.exe' title='UiPath - Calendar - * />”
-- [o] “<html app='chrome.exe' title='UiPath - Calendar - * 2017' />”
+- [-] "\<html app='chrome.exe' title='UiPath - Calendar - Week of ?????, 2017' />”
+- [-] “\<html app='chrome.exe' title='UiPath - Calendar -* 201?'/> “
+- [-] “\<html app='chrome.exe' title='UiPath - Calendar - * />”
+- [o] “\<html app='chrome.exe' title='UiPath - Calendar - * 2017' />”
 
 Q) How can you improve the following calendar page selector to work only for dates in 2017? “<html app='chrome.exe' title='UiPath - Calendar - Week of May 1, 2017' />”
-- [o] “<html app='chrome.exe' title='UiPath - Calendar - * 2017' />”
-- [-] “<html app='chrome.exe' title='UiPath - Calendar -* 201?' /> “
-- [-] “<html app='chrome.exe' title='UiPath - Calendar - Week of ?????, 2017' />”
-- [-] “<html app='chrome.exe' title='UiPath - Calendar - * />”
+- [-] "\<html app='chrome.exe' title='UiPath - Calendar - Week of ?????, 2017' />”
+- [-] "\<html app='chrome.exe' title='UiPath - Calendar -* 201?' /> “
+- [-] "\<html app='chrome.exe' title='UiPath - Calendar - * />”
+- [o] "\<html app='chrome.exe' title='UiPath - Calendar - * 2017' />
 
 ---
 ### 6.5
@@ -982,8 +989,8 @@ Q) これは、動的ページ「webctrl idx='144' tag='IMG'/」の信頼性の�
 - [o] 正しくない
 
 Q) This is a reliable selector for a dynamic page: "webctrl idx='144' tag='IMG'/"
-- [o] False
 - [-] True
+- [o] False
 
 ---
 ### 6.6
@@ -1004,8 +1011,8 @@ Q) 部分セレクターは [ウィンドウにアタッチ (AttachWindow)] ま�
 - [-] いいえ
 
 Q) Can partial selectors be used inside a container (Attach Window or Open Application activities)?
-- [-] No
 - [o] Yes
+- [-] No
 
 ---
 ### 6.8
@@ -1015,8 +1022,8 @@ Q) 動的セレクターを構築するために変数を使用できますか�
 - [-] いいえ
 
 Q) Can variables be used to build dynamic selectors?
-- [-] No
 - [o] Yes
+- [-] No
 
 ---
 ### 6.9
@@ -1050,10 +1057,10 @@ Q) UiExplorer の用途は何ですか？(該当するものをすべて選択�
 - [-] ワークフローツリーを調べる
 
 Q) What is UiExplorer used for? (Select all that apply.)
+- [o] To create and fine tune selectors
+- [o] To explore the UI tree
 - [-] UiExplorer is not a component of UiPath
 - [-] To explore the workflow tree
-- [o] To explore the UI tree
-- [o] To create and fine tune selectors
 
 ---
 ### 6.12
@@ -1067,9 +1074,9 @@ Q) セレクターを改善するには、どうすればよいですか？(該�
 Q) How can you improve a selector?(Select all that apply.)
 
 - [-] By making sure you have an idx attribute
-- [o] By picking only the stable attributes, if possible
 - [-] By adding attributes with dynamic values
 - [o] By replacing variable attribute parts with *
+- [o] By picking only the stable attributes, if possible
 
 ---
 ### 6.13
@@ -1095,8 +1102,8 @@ Q) “nav”タグの有効なオプションは、次のうちどれですか�
 Q) Which of the following are valid options for the “nav” tag?
 
 - [o] “Next”
-- [o] “Up”
 - [o] “Prev”
+- [o] “Up”
 
 ---
 ### 6.15
@@ -1107,8 +1114,8 @@ Q) [ハイライト (Highlight)] の用途は何ですか？(該当するもの�
 - [-] Studio でアクティビティを追加する
 
 Q) What is the Highlight activity used for?
-- [-] For removing selectors
 - [o] For troubleshooting and verifying selectors
+- [-] For removing selectors
 - [-] For adding activities in Studio
 
 ---
@@ -1120,9 +1127,9 @@ Q) UI要素の全属性のリストを表示するには、どうすればよい
 - [-] できません
 
 Q) How can you see the full list of attributes of Ui elements?
-- [-] You cannot.
-- [-] By using the select from screen tool in Ui Automation activities.
 - [o] By using the UiExplorer tool.
+- [-] By using the select from screen tool in Ui Automation activities.
+- [-] You cannot.
 
 ---
 ### 6.17
@@ -1134,8 +1141,8 @@ Q) セレクターとは何ですか？
 
 Q) What is a Selector?
 - [-] The unique ID of an UI element.
-- [-] A container for UI elements.
 - [o] The “path” to the UI element, starting from the root, all the way to target element.
+- [-] A container for UI elements.
 
 ---
 ### 6.18
@@ -1147,8 +1154,8 @@ Q) [要素を探す (FindElement)] について、正しい説明はどれか？
 
 Q) Which of the following statements are true regarding the Find Element activity?(Select all that apply.)
 - [-] It return a boolean(True or False) specifying if the element was found on screen
-- [o] It throws an exception if it doesn’t find the element on screen
 - [o] It returns the found element in a variable for later use
+- [o] It throws an exception if it doesn’t find the element on screen
 
 ---
 ### 6.19
@@ -1176,9 +1183,9 @@ Q) セレクターを変数に格納できますか？(該当するものをす�
 
 Q) Can you store a Selector in a variable?
 - [-] Yes, of type UiElement
+- [o] Yes, of type String
 - [-] Yes, of type Int32
 - [-] No
-- [o] Yes, of type String
 
 ---
 
@@ -1240,10 +1247,10 @@ Q) Citrix環境で、アプリケーションの操作に使用できるアク�
 - [-] Click Text
 
 Q) What activities can be used to interact with applications in a Citrix environment?
-- [-] Click Text
 - [o] Type into
 - [o] Click OCR Text
 - [o] Click Image
+- [-] Click Text
 
 ---
 ### 7.6
@@ -1255,9 +1262,9 @@ Q) 数字のみを含む領域をOCRで読み取る場合、精度を向上さ�
 - [-] 背景を暗い色にする
 
 Q) How can you improve accuracy when scraping with OCR a region that contains only digits?
-- [-] Make sure the background is dark
-- [-] Use Get Text for the field in the Citrix Window
 - [o] Use Google OCR with “Numbers Only”
+- [-] Use Get Text for the field in the Citrix Window
+- [-] Make sure the background is dark
 
 ---
 ### 7.7
@@ -1269,8 +1276,8 @@ Q) ターゲットが画面に表示されていない場合に、ClickImageア�
 
 Q) Is it possible to click a button with Click Image Activity if the target is not visible on the screen?
 - [-] Yes, but you have to click the text from the button not the button image
-- [o] No, you could click a button which is not visible only using selectors
 - [-] Yes, the robot can click an image even if it's not visible on the screen
+- [o] No, you could click a button which is not visible only using selectors
 
 ---
 ### 7.8
@@ -1282,10 +1289,10 @@ Q) Citrix環境で選択可能なテキストを抽出する最善の方法は�
 - [o] テキスト全体を選択し、コピーする
 
 Q) What is the best way to scrape a selectable text in a Citrix environment?
-- [o] Select the entire text and Copy
 - [-] Use “Get Full Text” activity
-- [-] Use Microsoft OCR engine
 - [-] Use Google OCR engine
+- [-] Use Microsoft OCR engine
+- [o] Select the entire text and Copy
 
 ---
 ### 7.9
@@ -1319,8 +1326,8 @@ Q) Citrix 環境で実行しているアプリケーションで、特定のテ�
 - [-] サイズが変化する場合は、不可能です。
 
 Q) What method would be more reliable when clicking on a specific text label in an application running in a Citrix environment, given the fact that its font size might be easily changed?
-- [o] Using the Click OCR Text activity.
 - [-] Using the Click Image activity.
+- [o] Using the Click OCR Text activity.
 - [-] It can’t be done if its size fluctuates.
 
 ---
@@ -1332,9 +1339,9 @@ Q) Citrix環境内のアプリケーションで、[Accept] という名前の�
 - [-] その要素の属性をチェックします。
 
 Q) Consider having an application in Citrix Environment that has a button named ‘Accept’ and also a label that contains the Accept word. How can Click Text be customized in order to access the correct button?
+- [-] By checking the element’s attributes.
 - [o] By using the Occurrence property.
 - [-] It can’t be done, having to click on a text that is duplicated can’t be controlled.
-- [-] By checking the element’s attributes.
 
 ---
 ### 7.13
@@ -1345,9 +1352,9 @@ Q) Citrix環境では、Click Image と Click Text に100％の正確性は期�
 - [o] 信頼性の高い要素にフォーカスを設定し、キーボード(上下、矢印、タブなどのキー)を使用してアプリケーション内を移動するか、またはキーボードショートカットを使用する。
 
 Q) Click Image and Click OCR Text are not 100% reliable in Citrix environments. What method can be used instead (when applicable) to have safer actions?
-- [o] Setting focus on a reliable element and then navigating around the app using keyboard (up/down arrows, tab, etc) or using keyboard shortcuts.
-- [-] Using full selectors.
 - [-] Setting the Accuracy property of the Click Image activity to 1.
+- [-] Using full selectors.
+- [o] Setting focus on a reliable element and then navigating around the app using keyboard (up/down arrows, tab, etc) or using keyboard shortcuts.
 
 ---
 ### 7.14
@@ -1359,9 +1366,9 @@ Q) Citrix 環境で、サイズやスタイルが同じように見えるテキ�
 - [-] 部分セレクターを使用する。
 
 Q) Having an app in a Citrix environment with multiple text-boxes that look the same (size/style), how can you identify one of them to type into?
-- [-] By clicking relative to an unique text/image next to the textbox.
 - [-] By using text-box element attributes.
 - [o] You can’t identify it if it doesn’t have something unique next to it (text/image).
+- [o] By clicking relative to an unique text/image next to the textbox.
 - [-] By using partial selectors.
 
 ---
@@ -1380,11 +1387,10 @@ Q) ドロップダウンリストから項目を選択するために使用で�
 - [-] Select Item
 
 Q) Which of the following activities can be used to select an item in drop down list, in Citrix?(Select all that apply.)
-
-- [-] Select Item
 - [o] Click Image
-- [o] Click OCR Text
 - [-] Click Text
+- [o] Click OCR Text
+- [-] Select Item
 
 ---
 ### 8.2
@@ -1408,9 +1414,9 @@ Q) Citrix環境で、アプリケーションが特定の状態であること�
 - [o] 特定のUI要素が表示または非表示されるまで待機し、それに基づいて判別を行う。
 
 Q) How can we make sure that an app is in a certain state in a Citrix environment?
-- [o] By waiting for certain UI elements to appear or disappear and making decisions based on that.
 - [-] By making use of the WaitForReady property.
 - [-] By checking the UI element’s attributes.
+- [o] By waiting for certain UI elements to appear or disappear and making decisions based on that.
 
 ---
 ### 8.4
@@ -1422,10 +1428,10 @@ Q) Citrix でアプリケーションを開くときに、ロボットは変数�
 - [o] コマンドプロンプトで、アプリケーションと引数のパスを入力する
 
 Q) How can the robot pass a variable argument when opening an application in Citrix (eg: a web address for a browser)?
-- [o] In the command prompt, type in the path to the application and the argument
-- [-] Setting the argument to the shortcut on the desktop
 - [-] With an Open Application activity
+- [-] Setting the argument to the shortcut on the desktop
 - [-] Cannot be done
+- [o] In the command prompt, type in the path to the application and the argument
 
 ---
 ### 8.5
@@ -1437,8 +1443,7 @@ Q) 読み込みが遅い要素で Type Into アクティビティを使用する
 
 Q) Imagine you have to use a Type Into activity in an element that loads slowly. Will it be a good idea to add some delays before executing Type Into?
 - [-] Yes, it’ll give the robot some time and when the element is loaded it can carry on typing.
-- [-
-] No, this solution is not reliable because sometimes the loading time can take more than the delay time.
+- [o] No, this solution is not reliable because sometimes the loading time can take more than the delay time.
 - [o] Use On image appear and start typing only after the trigger happens.
 
 ---
@@ -1461,9 +1466,9 @@ Q) Citrix内から使用できる最も簡単なナビゲーション方法は�
 - [-] [Click with fixed coordinates] を使用する方法
 
 Q) What is the EASIEST navigation method to be used in a form within Citrix?
+- [o] By sending keyboard commands/hotkeys
 - [-] By using Click relative to image
 - [-] By using Click with fixed coordinates
-- [o] By sending keyboard commands/hotkeys
 
 ---
 ### 8.8
@@ -1475,10 +1480,10 @@ Q) クリッピングリージョンをリセットするには、どうすれ�
 - [-] Break アクティビティを使用する
 
 Q) How do you reset a clipping region?
-- [-] With a Break activity
-- [o] With a Set Clipping Region activity
 - [-] It doesn't need to be reset
+- [o] With a Set Clipping Region activity
 - [-] With a Find Image activity
+- [-] With a Break activity
 
 ---
 ### 8.9
@@ -1489,9 +1494,9 @@ Q) Click Image アクティビティがアイコンの画像で作成され、�
 - [o] いいえ、精度が高すぎる場合は機能しません。
 
 Q) If a Click Image activity was created with an image of an icon, and meanwhile that icon becomes highlighted, will the activity still work?
+- [-] Yes, the robot will always find it.
 - [-] Yes, if the clipping region avoids the background of the icon.
 - [o] No, if the accuracy is too high.
-- [-] Yes, the robot will always find it.
 
 ---
 ### 8.10
@@ -1513,17 +1518,18 @@ Q) Windowsリモート接続でホットキーを送信できない場合は、�
 - [o] Windowsリモート接続が「全画面」モードになっている場合に、実行する必要がある。
 
 Q) What can be done when the Windows Remote Connection doesn’t allow sending hotkeys?
+- [-] There’s nothing that can be done.
 - [-] Send hotkeys after performing a click on the remote desktop window.
 - [o] It should work if the Windows Remote Connection is in ‘full-screen’ mode.
-- [-] There’s nothing that can be done.
 
 ---
+### 8.12
 
 Q) How can you start an application within a Citrix environment?(Select all that apply.)
-- [ ] With an Open Application activity
-- [ ] Define a shortcut key and then trigger the app with a Send Hotkey activity
-- [ ] Double clicking its icon on the desktop
-- [ ] With a Start Process activity
+- [-] With an Open Application activity
+- [o] Define a shortcut key and then trigger the app with a Send Hotkey activity
+- [o] Double clicking its icon on the desktop
+- [-] With a Start Process activity
 
 ---
 
@@ -1542,8 +1548,8 @@ Q) Excelシートからデータを読み取る必要があるがその範囲が
 
 Q) You need to read from an Excel sheet and you don’t know the range. What do you write in the “Range” property of the Read Range Activity?
 - [-] It’s impossible, you have to specify the range
-- [-] Write just the end cell
 - [o] Write an empty string
+- [-] Write just the end cell
 - [-] Write some random range
 
 ---
@@ -1555,9 +1561,9 @@ Q) [範囲を読み込む (Read Range)] で、すでにデータを持ってい�
 - [-] 新しいデータが既存のデータに追加される
 
 Q) What happens if you use the Write Range activity with the Range property set to “” to write a datatable to an excel file that already contains data?
-- [o] It will overwrite the existing data.
 - [-] It will throw an error.
 - [-] It will append the new data to the existing data.
+- [o] It will overwrite the existing data.
 
 ---
 ### 9.3
@@ -1569,10 +1575,10 @@ Q) データテーブルのすべての行をループするには、どのア�
 - [-] [繰り返し(前判定) (While)]
 
 Q) In order to loop through all the rows of a data table, which activity should be used?
-- [-] While
-- [-] For Each
 - [-] Do While
 - [o] For Each Row
+- [-] For Each
+- [-] While
 
 ---
 ### 9.4
@@ -1626,8 +1632,8 @@ Q) ある条件に基づいてデータテーブルのデータをフィルタ�
 
 Q) What is the best approach to filter data from a data table based on a condition? 
 - [o] Using the 'Select' method
-- [-] Using Format Value activity
 - [-] Using the 'Clone' method
+- [-] Using Format Value activity
 - [-] Using Clear Data Table activity
 
 ---
@@ -1655,10 +1661,10 @@ Q) 既存の .xlsx 文書にデータを追加する場合、どのアクティ�
 - [-] Workbook [範囲に書き込む (WriteRange)]
 
 Q) What activity should you use if you want to add data to an existing .xlsx document without overwrite existing data?
-- [o] Excel Append Range
 - [-] Excel Write Cell
-- [-] Workbook Write Range
+- [o] Excel Append Range
 - [o] Workbook Append Range
+- [-] Workbook Write Range
 
 ---
 ### 9.10
@@ -1691,23 +1697,30 @@ Q) Can Excel related activities be used without having the Excel Application ins
 - [-] No, UiPath Studio requires MS Office package
 
 ---
+### 9.12
 
 Q) You have an Excel table with two columns named "PersonName" and "Age". What happens if you use the activity Insert Column with the Column Name property set to "Age"? 
-- [ ] A new column with the name "Age" is added at the end of the table
+- [-] A new column with the name "Age" is added at the end of the table
 - [o] An exception is thrown
-- [ ] A new column with the name "Age" is added at the beginning of the table
-- [ ] The Column "Age" is overwritten.
+- [-] A new column with the name "Age" is added at the beginning of the table
+- [-] The Column "Age" is overwritten.
+
+---
+### 9.13
 
 Q) What should you use if you want to get the value of a specific cell from a row in a datatable?
-- [ ] Lookup data table
+- [o] Lookup data table
 - [-] Get Data Row
-- [ ] Output Data Table
-- [ ] Add Data Row
+- [-] Output Data Table
+- [-] Add Data Row
+
+---
+### 9.14
 
 What activity can you use to create a DataTable from an input string?
 - [o] Output Data Table
-Generate Data Table
-Build Data Table
+- [-] Generate Data Table
+- [-] Build Data Table
 
 ---
 
@@ -1726,9 +1739,9 @@ Q) 構造が類似する一連のPDFファイルから特定の情報を抽出�
 
 Q) If you want to extract specific information from a series of PDF files with a similar structure but the workflow only works for one file of the series, what should you investigate?
 - [-] The ContinueOnError property.
-- [-] None of the options.
-- [o] The Selector property.
 - [-] The TimeoutMS property.
+- [o] The Selector property.
+- [-] None of the options.
 
 ---
 ### 10.2
@@ -1739,9 +1752,9 @@ Q) PDF請求書があり、ラベル [AMOUNT] の隣にある金額 (USD) を読
 - [o] Acrobat Reader、もしくは、互換性のある他のPDFリーダーでファイルを開き、Anchor Base をラベルをアンカーとして使用する
 
 Q) We have a native PDF invoice and we need to read the amount in USD next to the label AMOUNT. What methods can we apply to get the desired value? (Select all that apply.)
+- [o] Use a Read PDF Text activity and then use the required String manipulation methods to retrieve only the amount
 - [o] Use the Get Text activity with a reliable selector (if available) in order to only retrieve the amount from the PDF file.
 - [o] Open the file in Acrobat Reader or any other compatible PDF reader and use Anchor Base with the label as an anchor
-- [o] Use a Read PDF Text activity and then use the required String manipulation methods to retrieve only the amount
 
 ---
 ### 10.3
@@ -1752,9 +1765,9 @@ Q) PDFアクティビティを使用して、PDF ファイルの最初のペー�
 - [-] Range プロパティを “all” に設定する
 
 Q) How can a robot read only the first page of a PDF file, using the PDF activities? 
-- [-] Set the Range property to: “all”
-- [-] Set the Range property to: 1
 - [o] Set the Range property to: “1”
+- [-] Set the Range property to: 1
+- [-] Set the Range property to: “all”
 
 ---
 ### 10.4
@@ -1766,8 +1779,8 @@ Q) PDFコンテナーに画像とテキストの両方が含まれている場�
 - [-] Get Text
 
 Q) If the PDF contains both images and native text, what activity should you use to read all the text from it?
-- [-] Read PDF Text
 - [o] Read PDF with OCR
+- [-] Read PDF Text
 - [-] Read Image
 - [-] Get Text
 
@@ -1780,9 +1793,9 @@ Q) PDFアクティビティがアクティビティパネルに表示されて�
 - [-] ライブラリ タブで検索する。
 
 Q) If the PDF activities are not listed in your Activities Panel, how can you get them?
-- [-] By finding them in the Library tab.
-- [-] By going to the Output panel.
 - [o] By installing them using the Manage Packages feature.
+- [-] By going to the Output panel.
+- [-] By finding them in the Library tab.
 
 ---
 ### 10.6
@@ -1795,8 +1808,8 @@ Q) PDFファイルからすべてのテキストを抽出するには、どの�
 
 Q) What activity should you use to extract all the text from the PDF file?
 - [o] Read PDF Text
-- [-] Read Image
 - [o] Read PDF with OCR
+- [-] Read Image
 - [-] Get Text
 
 ---
@@ -1833,7 +1846,7 @@ Q) .pdf ドキュメントからテキストを読み上げるために使用で
 - [o] UI自動化(Adobe Acrobat Reader でPDFドキュメントを開き、Get Text)
 - [o] Read PDF with OCR アクティビティ
 
-Q)  Which of the following methods can be used for reading text from a native .pdf document? ((Select all that apply.)
+Q) Which of the following methods can be used for reading text from a native .pdf document? ((Select all that apply.)
 - [o] Read PDF Text activity
 - [o] Ui Automation (open pdf document in Adobe Acrobat Reader, then Get Text)
 - [o] Read PDF with OCR activity
@@ -1847,11 +1860,11 @@ Q) 同じ構造で、複数のPDFファイルから特定の情報を抽出し�
 - [-] Get Text with OCR
 - [o] Get Text
 
-Q）If you want to extract specific information from multiple native PDF files with the same structure, what activity should you use?
-- [-] Read PDF with OCR
-- [o] Get Text
-- [-] Get Text with OCR
+Q) If you want to extract specific information from multiple native PDF files with the same structure, what activity should you use?
 - [-] There is no activity for this
+- [-] Read PDF with OCR
+- [-] Get Text with OCR
+- [o] Get Text
 
 ---
 ### 10.11
@@ -1861,8 +1874,8 @@ Q) Read PDF with OCR では、ドキュメントを読み取るために、画�
 - [o] いいえ
 
 Q) Will the Read PDF with OCR activity open the PDF document on the screen in order to read it?
-- [o] No
 - [-] Yes
+- [o] No
 
 ---
 ### 10.12
@@ -1874,10 +1887,10 @@ Q) PDFファイルを読み上げるために、Acrobat Reader を使用して�
 - [-] Read PDF with OCR
 
 Q) What activity should you use to extract all the text from the PDF file?
-- [-] Read PDF with OCR
 - [-] Read PDF Text
 - [-] Read Image
 - [o] Get Text
+- [-] Read PDF with OCR
 
 ---
 ### 10.13
@@ -1889,10 +1902,10 @@ Q) Read PDF with OCR アクティビティでエラーがスローされるの�
 - [-] Text プロパティ.
 
 Q) The Read PDF with OCR activity will throw an error if the following is not specified: 
-- [o] The FileName property.
-- [-] The Text property.
-- [-] The Password property.
 - [o] The OCR Engine that is to be used.
+- [o] The FileName property.
+- [-] The Password property.
+- [-] The Text property.
 
 ---
 ### 10.14
@@ -1905,8 +1918,8 @@ Q) Read PDF with OCR アクティビティについて、正しい説明は次�
 
 Q) Which of the following statements regarding Read PDF with OCR activity are true? (Select all that apply.)
 - [o] Works with native PDF files
-- [o] Can use different OCR engines (Microsoft, Google
 - [o] It allows you to specify the range of pages to be read
+- [o] Can use different OCR engines (Microsoft, Google
 - [-] None of the options
 
 ---
@@ -1925,10 +1938,10 @@ Q) 未読のメッセージだけを取得するためのアクティビティ�
 - [-] Save Mail Message
 
 Q) Which of the following activities will allow you to only retrieve only unread messages?  (Select all that apply.)
+- [o] Get OUTLOOK Mail Message
+- [o] Get IMAP Mail Messages
 - [-] Get POP3 Mail Messages
 - [-] Save Mail Message
-- [o] Get IMAP Mail Messages
-- [o] Get OUTLOOK Mail Message
 
 ---
 ### 11.2
@@ -1939,9 +1952,9 @@ Q) メールアカウントにユーザー名とパスワードを入力せず�
 - [-] Send Exchange Mail Message
 
 Q) What activity can you use to send an email without entering the username and password of the email account?
-- [-] Send Exchange Mail Message
-- [-] Send SMTP Mail Message
 - [o] Send Outlook Mail Message
+- [-] Send SMTP Mail Message
+- [-] Send Exchange Mail Message
 
 ---
 ### 11.3
@@ -1950,8 +1963,6 @@ Q) メールメッセージの送信に使用できるアクティビティを�
 - [-] Send IMAP Mail Message.
 - [o] Send SMTP Mail Message.
 - [o] Send Outlook Mail Message.
-
-Q) 
 
 ---
 ### 11.4
@@ -1963,10 +1974,10 @@ Q) MailMessage内に画像を送信するには、どうすればよいですか
 - [o] 添付ファイルへのパスを、sendアクティビティ内で直接追加する
 
 Q) How can you send an image inside a MailMessage?
-- [-] Using an Invoke Method which allows you to Add the path to the Attachments collection of a MailMessage object
-- [-] You cannot send an image attachment inside a MailMessage.
-- [o] You can add the path to the attachment directly in the send activity.
 - [o] You can specify the relative path of the image in the Attachments property.
+- [-] You cannot send an image attachment inside a MailMessage.
+- [-] Using an Invoke Method which allows you to Add the path to the Attachments collection of a MailMessage object
+- [o] You can add the path to the attachment directly in the send activity.
 
 ---
 ### 11.5
@@ -1976,8 +1987,8 @@ Q) Send Outlook Mail Message アクティビティは、Microsoft Outlook をイ
 - [o] 正しくない
 
 Q) The Send Outlook Mail Message activity will work without having Microsoft Outlook installed:
-- [o] False
 - [-] True
+- [o] False
 
 ---
 ### 11.6
@@ -1989,10 +2000,10 @@ Q) Get Outlook Mail Messages アクティビティ内にあるプロパティは
 - [-] Port
 
 Q) Which of the following properties are found in the Get Outlook Mail Messages activity? 
-- [o] MailFolder
-- [-] Port
-- [-] Server
 - [-] Password
+- [o] MailFolder
+- [-] Server
+- [-] Port
 
 ---
 ### 11.7
@@ -2003,9 +2014,9 @@ Q) Save Attachments アクティビティは、すべての添付ファイルを
 - [-] 変数内 (添付ファイルオブジェクトのコレクションとして)
 
 Q) The Save Attachments activity can save all the attachments of an email to:
-- [-] In a variable, as a collection of attachment objects.
 - [o] A relative path.
 - [o] An absolute path.
+- [-] In a variable, as a collection of attachment objects.
 
 ---
 ### 11.8
@@ -2015,8 +2026,8 @@ Q) MailMessage変数のリストをループ処理するために For Each ア�
 - [-] System.Web.Mail.MailMessage
 
 Q) If you are using the For Each activity to loop through a list of MailMessage variables, what should you set the TypeArgument property to?
-- [-] System.Web.Mail.MailMessage
 - [o] System.Net.Mail.MailMessage
+- [-] System.Web.Mail.MailMessage
 
 ---
 ### 11.9
@@ -2029,18 +2040,18 @@ Q) すべての Get Mail アクティビティ(POP3、IMAP、Outlook、Exchange)
 
 Q) What is the supported variable type in the Output property field of all Get Mail activities (POP3, IMAP, Outlook, Exchange)?
 - [-] Generic
-- [-] MailMessage
-- [-] List (Generic)
 - [o] List (MailMessage)
+- [-] List (Generic)
+- [-] MailMessage
 
 ---
 ### 11.10
  
 Q) フィルタリング済みのMailMessage変数のみを取得したい場合に使用するアクティビティを答えてください。
-- [-] Get Exchange Mail Messages
 - [-] Get IMAP mail messages
-- [-] Get POP3 Mail Messages
 - [o] Get Outlook mail messages
+- [-] Get Exchange Mail Messages
+- [-] Get POP3 Mail Messages
 
 Q) If you want to get only filtered MailMessage variables, what activity should you use?
 - [-] Get IMAP mail messages
@@ -2058,9 +2069,9 @@ Q) メールの日付を取得するには、MailMessageクラス内でどの Vi
 - [o] Headers(“Date”)
 
 Q) Which Visual Basic property within the MailMessage class will you use to get the Date of an email? 
-- [-] Date
-- [-] the Date cannot be retrieved
 - [-] Attachments
+- [-] the Date cannot be retrieved
+- [-] Date
 - [o] Headers(“Date”)
 
 ---
@@ -2079,10 +2090,10 @@ Q) UI要素が表示されているかどうかをチェックするために、
 - [-] Find Element
 
 Q) What activity can be used in a Citrix environment to check whether a UI element is displayed or not?
-- [-] Wait Element Vanish
 - [-] Element Exists
-- [-] Find Element
 - [o] Image Exists
+- [-] Wait Element Vanish
+- [-] Find Element
 
 ---
 ### 12.2
@@ -2094,17 +2105,17 @@ Q) UI要素が画面に表示されるまで待機する必要がある場合は
 
 Q) If you want to wait until a UI Element becomes available on the screen, what activity should you use?
 - [o] Find Element
-- [-] Wait Element Vanish
 - [-] Element Exists
+- [-] Wait Element Vanish
 
 ---
 ### 12.3
  
 Q) Try／catchブロックには、いくつのキャッチを格納できますか？
-- [o] キャッチの数に制限はありません
 - [-] 1
-- [-] 5
+- [o] キャッチの数に制限はありません
 - [-] 2
+- [-] 5
 
 Q) How many Catches can you have in a Try/Catch block?
 - [-] 1
@@ -2120,8 +2131,8 @@ Q) ワークフローの実行中に、ワークフローが実行している�
 - [o] [デバッグ] と[アクティビティのハイライト] オプションを使用する
 
 Q) When running a workflow how can you see the steps the workflow is executing?
-- [-] Using Run and inspecting the Properties panel
 - [o] Using Debug and inspecting the Output panel
+- [-] Using Run and inspecting the Properties panel
 - [o] Using Debug with Highlight Activities option
 
 ---
@@ -2134,10 +2145,10 @@ Q) アクティビティが失敗した場合でも、実行を続行するに�
 - [-] Throw アクティビティ
 
 Q) What can you use to make sure that the execution continues even if an activity fails?
-- [-] Throw activity
 - [-] TimeoutMS property
 - [-] DelayAfter property
 - [o] Try/Catch activity
+- [-] Throw activity
 
 ---
 ### 12.6
@@ -2149,19 +2160,19 @@ Q) UI要素が画面に表示されなくなるまでワークフローを停止
 - [o] Wait Element Vanish
 
 Q) If you need to stop the workflow until a UI Element has disappeared from the screen, what activity should you use?
-- [o] Wait Element Vanish
-- [-] Find Relative Element
 - [-] Element Exists
 - [-] Find Element
+- [-] Find Relative Element
+- [o] Wait Element Vanish
 
 ---
 ### 12.7
  
 Q) ワークフローを読み込むときに表示される「Activity could not be loaded because of errors in the XAML」エラーの詳細について、どこで確認できますか？(該当するものをすべて選択してください)
 - [-] Properties ペイン
+- [-] Library
 - [o] Output ペイン
 - [-] Outline ペイン
-- [-] Library
 
 Q) Where can you find more details about the following error that appears when loading a workflow: “Activity could not be loaded because of errors in the XAML”?
 - [-] In Properties pane
@@ -2180,9 +2191,9 @@ Q) Clickアクティビティにブレークポイントを設定し、デバッ
 
 Q) What happens if you put a Breakpoint on a Click activity and start the workflow in Debug mode?
 - [-] The workflow will throw an error when it reaches that activity.
+- [-] The workflow will be paused for 5 seconds when it reaches that activity.
 - [-] You can only put a Breakpoint on a Break activity.
 - [o] The workflow will be paused until you click the Continue button when it reaches that activity.
-- [-] The workflow will be paused for 5 seconds when it reaches that activity.
 
 ---
 ### 12.9
@@ -2194,10 +2205,10 @@ Q) ワークフローの実行中、変数の値はどこで確認できます�
 - [-] Outline ペイン
 
 Q) Where can you see the variables’ values during workflow execution?
-- [-] In the Outline pane
-- [o] In the Locals pane
-- [-] In the Variables pane
 - [-] In the Library pane
+- [-] In the Variables pane
+- [o] In the Locals pane
+- [-] In the Outline pane
 
 ---
 ### 12.10
@@ -2210,10 +2221,10 @@ Q) 特定の条件でロボットの動作を分析するために、ロボッ�
 - [-] いいえ、できません。
 
 Can you run the robot manually, step by step, in order to analyze the robot behavior in certain conditions?
-- [-] No, you cannot do it.
-- [-] Yes, by using Breakpoints and running the workflow in Debug mode.
 - [o] Yes, by using Breakpoints and running the workflow normally
 - [o] Yes, by using Step Into and Step Over.
+- [-] Yes, by using Breakpoints and running the workflow in Debug mode.
+- [-] No, you cannot do it.
 
 ---
 ### 12.11
@@ -2226,9 +2237,9 @@ Q) Catchブロックには、何を推奨しますか？(該当するものを�
 
 Q) What is recommended to have in a Catch block?
 - [o] An alternative to the approach that fails
+- [o] A LogMessage activity
 - [-] An Input Dialog activity
 - [-] Nothing
-- [o] A LogMessage activity
 
 ---
 ### 12.12
@@ -2240,10 +2251,10 @@ Q) Try／catchアクティビティの Finally ブロックは、次の場合に
 - [o] 例外が発生したかどうかにかかわらず、毎回
 
 Q) The Finally block of a Try/Catch activity is executed when:
-- [-] The activities in the Try block are executed and had errors.
 - [-] The activities in the Try block are executed with no error.
-- [o] Every time, regardless if an exception occurred or not.
 - [-] The activities in the Catch block are executed and had errors.
+- [-] The activities in the Try block are executed and had errors.
+- [o] Every time, regardless if an exception occurred or not.
 
 ---
 ### 12.13
@@ -2255,10 +2266,10 @@ Q) Catchブロックで定義されている例外タイプが複数ある場合
 - [o] 特定の例外タイプに一致しているブロック
 
 Q) When you have more than one exception type defined in the Catch block, which block is executed?
-- [-] All matching blocks in the order they are defined
-- [-] The block with most generic match
-- [o] The block with most specific match
 - [-] The first match defined
+- [-] The block with most generic match
+- [-] All matching blocks in the order they are defined
+- [o] The block with most specific match
 
 ---
 ### 12.14
@@ -2272,10 +2283,9 @@ Q) 特定の条件でロボットの動作を分析するために、プロセ�
 Q) How can you run the process slower in order to analyze the robot’s behavior in certain conditions?
 
 - [-] By using Slow Step and starting the workflow normally.
-- [o] By using Slow Step and running the workflow in Debug mode.
-- [-] By setting up Breakpoints and running the workflow in Debug mode.
 - [-] By using Validate.
-
+- [-] By setting up Breakpoints and running the workflow in Debug mode.
+- [o] By using Slow Step and running the workflow in Debug mode.
 
 ---
 ### 12.15
@@ -2287,8 +2297,8 @@ Q) 特定のアクティビティの前に実行を一時停止するには、�
 - [-] Breakアクティビティを使用する
 
 Q) How can execution be paused before a particular activity?
-- [o] By using a breakpoint in Debug mode
 - [o] By using a MessageBox activity
+- [o] By using a breakpoint in Debug mode
 - [-] By using a Pause activity
 - [-] By using a Break activity
 
@@ -2301,17 +2311,22 @@ Q) デバッグモードで作業しているときに、ローカルパネル�
 - [-] ローカルパネルには表示されません
 - [o] 変数の現在の値
 
+---
+### 12.17
+ 
 Q) What does the Locals panel display when you are working in Debug mode?
-- [-] The logs of the workflow.
-- [o] The current values of your variables.
-- [-] There is no Locals panel.
 - [-] All the activities inside the workflow.
+- [-] The logs of the workflow.
+- [-] There is no Locals panel.
+- [o] The current values of your variables.
 
-
-If you need to know if a UI Element is available on the screen or not, what activity should you use?
-Find Element
+---
+### 12.18
+ 
+Q) If you need to know if a UI Element is available on the screen or not, what activity should you use?
+- [-] Find Element
 - [o] Element Exists
-Wait Element Vanish
+- [-] Wait Element Vanish
 
 ---
 
@@ -2329,9 +2344,9 @@ Q) シーケンシャルアクティビティに推奨されるレイアウト�
 - [-] For each
 
 Q) What is the recommended layout for sequential activities?
-- [o] Sequence
 - [-] Flowchart
 - [-] Decision
+- [o] Sequence
 - [-] For each
 
 ---
@@ -2355,10 +2370,10 @@ Q) ワークフローの名前の例として良いものは、次のどれで�
 - [o] GetCustomerNumber.xaml
 
 Q) Which of the following is a good example of a workflow name?
-- [o] GetCustomerNumber.xaml
 - [-] Workflow1.xaml
-- [-] Workflow That Gets The Customer Number.xaml
 - [-] SAP_Process_Screen7.xaml
+- [-] Workflow That Gets The Customer Number.xaml
+- [o] GetCustomerNumber.xaml
 
 ---
 ### 13.4
@@ -2381,10 +2396,10 @@ Q) 呼び出されたワークフローからデータを抽出するには、�
 - [o] In/Out引数を使用します
 
 Q) How can you extract data from an invoked workflow?
+- [o] By using Out arguments.
+- [-] By using the Output property of the Invoke Workflow File activity.
 - [-] By using In arguments
 - [o] By using In/Out arguments.
-- [-] By using the Output property of the Invoke Workflow File activity.
-- [o] By using Out arguments.
 
 ---
 ### 13.6
@@ -2397,9 +2412,9 @@ Q) ワークフロー内では、どのような型の引数を使用できま�
 
 Q) What type of arguments can you use in a workflow?
 - [o] In
-- [-] Global
-- [o] In/Out
 - [o] Out
+- [o] In/Out
+- [-] Global
 
 ---
 ### 13.7
@@ -2411,8 +2426,8 @@ Q) 現在のワークフローから別のワークフローをトリガーす�
 - [o] Invoke Workflow アクティビティを使用します
 
 Q) How can you trigger another workflow from within your current one?
-- [-] By using the Open Application activity.
 - [-] You cannot trigger another workflow.
+- [-] By using the Open Application activity.
 - [-] By using the Invoke Method activity.
 - [o] By using the Invoke Workflow File activity.
 
@@ -2426,13 +2441,13 @@ Q) 複雑なプロセス自動化でビジネスロジックを定義する場�
 - [o] フローチャート
 
 Q) What is the recommended layout to define business logic in a complex process automation?
-- [-] Sequence
-- [o] Flowchart
 - [-] Decision
+- [-] Sequence
 - [-] For each
+- [o] Flowchart
 
 ---
-###　13.9
+### 13.9
  
 Q) RPA開発者は、ワークフローにおけるランタイム例外に、どのように対処するべきですか？
 - [o] Catchブロック内の自動リカバリシーケンスを使用します
@@ -2440,8 +2455,8 @@ Q) RPA開発者は、ワークフローにおけるランタイム例外に、�
 - [o] 外部ワークフローファイルを呼び出す際に、Try／Catch ブロックを使用します
 
 Q) How should an RPA developer address runtime exceptions in the workflows?
-- [o] By logging any exception events
 - [o] By using automatic recovery sequences inside the Catch blocks.
+- [o] By logging any exception events
 - [o] By using Try/Catch blocks when invoking external workflow files
 
 ---
@@ -2454,10 +2469,10 @@ Q) 大規模なプロジェクトでは、どのようなことがベストプ�
 - [o] 大きなプロセスを小さなワークフローに分割すること
 
 Q) What is considered a best practice in large projects?
-- [o] Breaking a large process in smaller workflows
 - [o] Giving descriptive names to variables and workflows
-- [o] Testing workflows independently
 - [-] Encapsulating most used activities in single-activity workflows that can be invoked from other workflows.
+- [o] Testing workflows independently
+- [o] Breaking a large process in smaller workflows
 
 ---
 ### 13.11
@@ -2473,7 +2488,7 @@ Q) When is it recommended to use nested If activities inside workflows?
 - [-] Each time you must use a series of decisions.
 
 ---
-###　13.12
+### 13.12
  
 Q) ワークフロー内で、プロセスの詳細を追加するために使用できるのは、次のどれですか？(該当するものをすべて選択してください)
 - [o] アクティビティの注釈を追加すること
@@ -2483,18 +2498,22 @@ Q) ワークフロー内で、プロセスの詳細を追加するために使�
 
 Q) What can you use to add more details about the process in the workflow itself?
 - [o] Adding activity annotations
-- [-] The Comment Out activity
 - [o] The Comment activity
 - [-] The Use Flowchart activity
+- [-] The Comment Out activity
 
-### Unknown
-How can you find all anchor elements in a web page?
-Using the Find Children activity
-Using the Find element activity
-Using the Find Relative Element activity
+---
+### 13.13
 
-What kind of actions can be performed in the Variables panel?
+Q) How can you find all anchor elements in a web page?
+- [o] Using the Find Children activity
+- [-] Using the Find element activity
+- [-] Using the Find Relative Element activity
 
-Adding new variables
-Changing variable types
-Setting default values for variables
+---
+### 13.14
+
+Q) What kind of actions can be performed in the Variables panel?
+- [o] Adding new variables
+- [o] Changing variable types
+- [o] Setting default values for variables
