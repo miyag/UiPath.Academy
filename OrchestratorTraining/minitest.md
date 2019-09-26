@@ -1,10 +1,11 @@
-# OrchestratorTraining MiniTest
+# Orchestrator Training
 
-Level 2 - Orchestratorトレーニング 小テスト
+https://www.uipath.com/ja/academy/training#t2
+
+## Level 2 - Orchestratorトレーニング 小テスト
 
 [o] ＝ 正解
 
----
 ### 1) 
 
 Q）Orchestrator の機能は次のうちどれですか？（単一選択）

@@ -1,7 +1,8 @@
-# FoundationTraining MiniTest
+# Uipath Foundation Training
 
-Level 1 - Foundation (基礎)トレーニング 小テスト
+https://www.uipath.com/ja/academy/training#t1
 
+MiniTest Level 1 - Foundation (基礎)トレーニング 小テスト
 
 ## Lesson-1
 
