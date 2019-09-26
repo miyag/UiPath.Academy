@@ -43,6 +43,6 @@ https://www.uipath.com/ja/academy/training
 - [ソリューションアーキテクト](/SolutionArchitectTraining)
 - [インフラストラクチャー](/InfrastructureTraining)
 - [UiPath & SAP](/SAPAutomationTraining)
-- [RPA導入方法論]/ImplementationMethodologyTraining)
+- [RPA導入方法論](/ImplementationMethodologyTraining)
 - [ビジネスアナリスト](/BusinessAnalystTraining)
 - [認定資格（AdvancedCertification）](/AdvancedCertification)
