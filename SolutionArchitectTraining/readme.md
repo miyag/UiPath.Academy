@@ -1,43 +1,42 @@
 # Solution Architect Training
+
 https://www.uipath.com/ja/academy/training#t4
 
 ## Solution Architect - Quiz 1
 
----
-
 ### 1) Both Orchestrator and Studio communicate with the Robot through the Robot Service.
-- [x] False
+- [-] False
 - [o] True
 
 ---
 
 ### 2) Which of the following statements are true regarding the current REFrameWork?
 - [o] The TransactionItem variable can be changed from QueueItem to another data type.
-- [x] In case of an unexpected application exception in the Process, the robot will recover and can potentially retry by setting a value in the Config file.
+- [-] In case of an unexpected application exception in the Process, the robot will recover and can potentially retry by setting a value in the Config file.
 - [o] Init state can be retried by setting a value in the Config file.
-- [x] If configured, the robot can end the execution on multiple consecutive application errors occurring in the Process state.
+- [-] If configured, the robot can end the execution on multiple consecutive application errors occurring in the Process state.
 
 ---
 
 ### 3) Which of the following are responsibilities of the RPA Solution Architect?
 - [o] Reusable component identification
-- [x] Installation of the UiPath Product Suite
+- [-] Installation of the UiPath Product Suite
 - [o] Code review
 - [o] Best Practices agreement and collaboration
 
 ---
 
 ### 4) What stage is the Development Effort Estimation conducted in?
-- [x] In the Sustain stage
-- [x] In the Test stage
-- [x] In the Build stage
+- [-] In the Sustain stage
+- [-] In the Test stage
+- [-] In the Build stage
 - [o] In the Preparation stage
 
 ---
 
 ### Q) What needs to be followed when estimating the development effort?
 - [o] Understanding the process to be automated
-- [x] Developing workflows
+- [-] Developing workflows
 - [o] Allowing extra time for unit and functional testing
 - [o] Test the integration of UiPath with the target applications
 
@@ -45,10 +44,9 @@ https://www.uipath.com/ja/academy/training#t4
 
 ## Solution Architect - Quiz 2
 
----
 
 ### 1) In the case of automating a front office process, only attended robots can be used.
-- [x] True
+- [-] True
 - [o] False
 
 ---

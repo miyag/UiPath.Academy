@@ -3,9 +3,8 @@ https://www.uipath.com/ja/academy/training#b2
 
 ## Final Quiz
 
----
 
-### 1) What are the criteria that a process should meet in order to be suitable for automation?(複数選択)
+### 1) What are the criteria that a process should meet in order to be suitable for automation?
 - [-] Has low volumes of transactions
 - [o] Is highly manual
 - [-] Undergoes changes
@@ -13,7 +12,7 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 2) What developer collaboration tools are integrated in UiPath Studio?(複数選択)
+### 2) What developer collaboration tools are integrated in UiPath Studio?
 - [-] GitHub
 - [-] Bitbucket
 - [o] SVN
@@ -21,7 +20,7 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 3) What are the three testing phases?(複数選択)
+### 3) What are the three testing phases?
 - [o] System Integration Testing
 - [o] Unit Testing
 - [-] Machine Testing
@@ -29,7 +28,7 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 4) What are some of the advantages of using the Robotic Enterprise Framework?(複数選択)
+### 4) What are some of the advantages of using the Robotic Enterprise Framework?
 - [o] Proper exception handling
 - [-] Stable selectors
 - [-] No need for coding
@@ -37,25 +36,25 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 5) Should the process pipeline be created before moving to the project's Analysis phase?(単一選択)
+### 5) Should the process pipeline be created before moving to the project's Analysis phase?
 - [o] Yes
 - [-] No
 
 ---
 
-### 6) Can RPA developers be trained exclusively online?(単一選択)
+### 6) Can RPA developers be trained exclusively online?
 - [o] Yes
 - [-] No
 
 ---
 
-### 7) Do developers have access to the Production environment in the Warranty period?(単一選択)
+### 7) Do developers have access to the Production environment in the Warranty period?
 - [o] No
 - [-] Yes
 
 ---
 
-### 8) What are some of the RPA Solution Architect's attributions?(複数選択)
+### 8) What are some of the RPA Solution Architect's attributions?
 - [o] Supervise the solution build and delivery of the workflow
 - [-] Set up the Production environment
 - [o] Perform hands-on coding
@@ -63,7 +62,7 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 9) What are the three recommended environments for a typical infrastructure setup?(複数選択)
+### 9) What are the three recommended environments for a typical infrastructure setup?
 - [o] Production
 - [-] QA
 - [o] Backup
@@ -71,7 +70,7 @@ https://www.uipath.com/ja/academy/training#b2
 
 ---
 
-### 10) What are the most common COE setups?(複数選択)
+### 10) What are the most common COE setups?
 - [o] Centralized
 - [o] Federated
 - [-] Distributed

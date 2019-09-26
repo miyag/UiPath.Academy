@@ -3,7 +3,6 @@
 
 ## Quiz
 
----
 
 ### Q) Match each Platform Component to its corresponding functionality.
 - [o] Orchestrator : provides remote control and monitoring capabilities for the digital workforce

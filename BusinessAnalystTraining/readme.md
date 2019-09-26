@@ -11,8 +11,6 @@ In order to complete the course and receive credit, you must pass the quiz.
 - Number of attempts: unlimited
 
 
-
----
 ### Q) A client who requires the automation of a virtual desktop is considered to be a… 
 - [-] Thick Client
 - [-] Either One of the listed options
@@ -20,7 +18,8 @@ In order to complete the course and receive credit, you must pass the quiz.
 - [-] None Of the Listed options
 
 ```
-Thin Clients are those that require the automation of a virtual desktop, or a remote one, while Thick clients use only desktop applications.
+Thin Clients are those that require the automation of a virtual desktop, 
+or a remote one, while Thick clients use only desktop applications.
 ```
 
 ---
@@ -36,7 +35,8 @@ Thin Clients are those that require the automation of a virtual desktop, or a re
 - [o] Priortize processes depending on their complexity
 
 ```
-The BA determines what is in-scope and out-of-scope for the automation during the Solution Design phase, once a process has been chosen for automation.
+The BA determines what is in-scope and out-of-scope for the automation during the Solution Design phase, 
+once a process has been chosen for automation.
 ```
 
 ---
@@ -47,8 +47,10 @@ The BA determines what is in-scope and out-of-scope for the automation during th
 - [-] None of the listed options
 
 ```
-The provided example is considered to be an emergency change as it can be a show stopper for Go-Live or it can endanger the production environment. 
-It needs priority treatment due to time pressure and has a different approval and implementation process compared to other changes.
+The provided example is considered to be an emergency change as it can be a show stopper 
+for Go-Live or it can endanger the production environment. 
+It needs priority treatment due to time pressure and has a different approval 
+and implementation process compared to other changes.
 ```
 ---
 ### Q) What are the responsibilities of a BA during the Testing phase of an RPA implementation?Choose all the options that apply
@@ -70,8 +72,10 @@ It needs priority treatment due to time pressure and has a different approval an
 - [-] True
 
 ```
-A Business Logic Translation Table is an optional piece of documentation which does not apply to all processes. It typically contains mappings between certain situations and the actions that need to be taken. 
-The best way of capturing complex business rules is by creating video recordings of all the process activities individually, and adding the appropriate explanatory voiceovers.
+A Business Logic Translation Table is an optional piece of documentation which does not apply to all processes. 
+It typically contains mappings between certain situations and the actions that need to be taken. 
+The best way of capturing complex business rules is by creating video recordings of all the process activities individually, 
+and adding the appropriate explanatory voiceovers.
 ```
 
 ---
@@ -91,14 +95,19 @@ The best way of capturing complex business rules is by creating video recordings
 - [o] Type of input
 - [o] Number of screens
 
-> The FTE savings percentage is a factor which determines the potential benefits of an automation.
+```
+The FTE savings percentage is a factor which determines the potential benefits of an automation.
+```
 
 ---
 ### Q) The relationship between a test scenario and a test case is always one to one (1:1)
 - [-] True
 - [o] False
 
-> The relationship between a test scenario and a test case may be either one to one or one to many, which, in the latter case, means a test scenario can have one or more test cases.
+```
+The relationship between a test scenario and a test case may be either one to one or one to many, 
+which, in the latter case, means a test scenario can have one or more test cases.
+```
 
 ---
 ### Q) Match each type of change with its corresponding approval requirements

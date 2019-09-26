@@ -2,11 +2,9 @@
 
 https://www.uipath.com/ja/academy/training#t5
 
----
 
 ## Quiz - High Level Arch and deployment options
 
----
 ### 1) Is the SQL database mandatory for Orchestrator?
 - [-] Yes, any Relational database, such as Oracle, SQL Server, MySQL, is supported
 - [o] Yes, only SQL Server is supported
@@ -128,7 +126,6 @@ https://www.uipath.com/ja/academy/training#t5
 
 ## Quiz - Elasticsearch and Kibana
 
----
 
 ### 1) What is Elasticsearch?
 - [-] A search tool used to identify the data stored in a relational database
@@ -276,7 +273,7 @@ https://www.uipath.com/ja/academy/training#t5
 
 ## Quiz - Robot Setup
 
----
+
 ### 1) The following statements describe how a robot can be connected to Orchestrator when the Robot Key is unknown. Which statement is false?
 - [o] By starting the Settings dialog box with elevated rights and filling in the connection string
 - [-] By running UiRobot.exe after installation with the --connect command and providing the connection string, if the robot machine is in the same domain as Orchestrator and Windows Authentication is enabled
@@ -313,13 +310,15 @@ https://www.uipath.com/ja/academy/training#t5
 ｰ [-] Because there are reports that need to be performed monthly, quarterly, and yearly
 
 ---
+
 ### 2) Why is the SQL Server database maintenance necessary?
 ｰ [-] To update the table and index statistics, which better determine execution plans
-ｰ [o]] To prevent any problems, to ensure smooth functioning, to free up disc space, to check for data errors, to update internal statistics, etc
+ｰ [o] To prevent any problems, to ensure smooth functioning, to free up disc space, to check for data errors, to update internal statistics, etc
 ｰ [-] To reduce the space occupied on disc by shrinking the database files
 ｰ [-] To reindex the tables that have accumulated many rows since the last maintenance operation
 
 ---
+
 ### 3) What should the Orchestrator backup procedure include?
 ｰ [-] The SQL Server database and the Elasticsearch indices
 ｰ [o] The SQL Server database, the NuGet Packages, the web.config file and the Elasticsearch indices
@@ -331,6 +330,7 @@ https://www.uipath.com/ja/academy/training#t5
 ## Quiz - Hardware Requirements
 
 ---
+
 ### 1) Which server has the highest hardware requirements for a given number of robots?
 ｰ [-] NLB
 ｰ [-] Web application server(Orchestrator)
@@ -338,6 +338,7 @@ https://www.uipath.com/ja/academy/training#t5
 ｰ [o] SQL server
 
 ---
+
 ### 2) When is a NLB needed?
 ｰ [-] When there are several separate Orchestrator installation instances that operate independently
 ｰ [-] When there is a single Orchestrator installation instance
@@ -348,7 +349,6 @@ https://www.uipath.com/ja/academy/training#t5
 
 ## Quiz - Final
 
----
 
 ### 1) What are the types of clients that can connect to the Orchestrator web application?
 
@@ -358,12 +358,14 @@ https://www.uipath.com/ja/academy/training#t5
 - [o] UiPath Studio, UiPath Robot, the browser for the Orchestrator’s web interface and a program or script that calls Orchestrator’s REST API methods
 
 ---
+
 ### 2) What happens if a robot downloads an automation package that contains unknown activity versions?
 - [-] The robot downloads the required activity pack version directly from Orchestrator, using the specific URL of the activities feed in its own UiPath.settings file
 - [-] The robot makes a call to Orchestrator specifying the required version, and Orchestrator uses the location specified in web.config under NuGet.Activities.Path to find the activity pack and deliver it to the robot
 - [o] The robot tries to find the activity pack in several places, obtained from UiPath.settings, from the local Nuget.config file and from the system’s roaming profile Nuget.config.
 
 ---
+
 ### 3) Can a robot be connected to Orchestrator when a proxy server restricts the connection?
 - [-] No
 - [o] Yes, when the proxy does not require authentication, and after adding a new section, about the proxy, to UiRobot.exe.config
@@ -455,18 +457,20 @@ https://www.uipath.com/ja/academy/training#t5
 - [o] The prerequisites are the same as the ones for the installation using scripts, except for the WebDeploy extension, which is not required with the MSI installation
 
 ---
+
 ### 17) What is the TCP port used by the Robot to connect to Orchestrator?
 - [-] 443
 - [-] 80
 - [o] the port being listened to by Orchestrator
  
-ｰｰｰ
+---
+
 ### 18) The Orchestrator update using scripts can only be performed if the previous version was installed using scripts as well. Which of the following statements related to the update is true?
 - [o] The existing site is updated; the keys in web.config are preserved, and new ones are added if necessary
 - [-] The existing site is updated, but the existing web.config file is not, so new keys are not added
 - [-] A new site is created; the packages and the content in web.config are copied to the new site; the old site is not affected
 
-ｰｰｰ
+---
 ### 19)　Which of the following security protocols is the minimum requirement in Orchestrator?
 - [-] SSL 3.0
 - [-] TLS 1.1

@@ -5,7 +5,6 @@ https://www.uipath.com/ja/academy/training#menu
 
 ## Quiz
 
----
 
 ### 1) User access to the Orchestrator web app is protected using the following features
 - [-] a) session cookies are avoided; b) only registered users can access Orchestrator - they can request access using a Registration form; c) User account is automatically locked after 30 minutes of inactivity
