@@ -13,10 +13,13 @@ UiPathアカデミーは、「一人でも多くの方に気軽にRPAに親し�
 
 2019年8月時点
 
+https://www.uipath.com/ja/academy/training
+
+
 - トレーニング　テクニカルコース
-  - [基礎コース（FoundationTraining）](https://www.uipath.com/ja/academy/training?hsCtaTracking=f956363e-6b73-4f14-ac4d-523dde8f6e87%7Cc96f9f14-8ec3-45b4-89c3-33c089ff513a#t1)
-  - [Orchestratorコース（OrchestratorTraining）](https://www.uipath.com/ja/academy/training?hsCtaTracking=f956363e-6b73-4f14-ac4d-523dde8f6e87%7Cc96f9f14-8ec3-45b4-89c3-33c089ff513a#t2)
-  - [上級コース（AdvancedTraining）](https://www.uipath.com/ja/academy/training?hsCtaTracking=f956363e-6b73-4f14-ac4d-523dde8f6e87%7Cc96f9f14-8ec3-45b4-89c3-33c089ff513a#t3)
+  - 基礎コース（FoundationTraining）
+  - Orchestratorコース（OrchestratorTraining）
+  - 上級コース（AdvancedTraining）
   - ソリューションアーキテクト
   - インフラストラクチャー
   - UiPath & SAP
@@ -37,4 +40,9 @@ UiPathアカデミーは、「一人でも多くの方に気軽にRPAに親し�
 - [基礎コース（FoundationTraining）](/FoundationTraining)
 - [Orchestratorコース（OrchestratorTraining）](/OrchestratorTraining)
 - [上級コース（AdvancedTraining）](/AdvancedTraining)
+- [ソリューションアーキテクト](/SolutionArchitectTraining)
+- [インフラストラクチャー](/InfrastructureTraining)
+- [UiPath & SAP](/SAPAutomationTraining)
+- [RPA導入方法論]/ImplementationMethodologyTraining)
+- [ビジネスアナリスト](/BusinessAnalystTraining)
 - [認定資格（AdvancedCertification）](/AdvancedCertification)
